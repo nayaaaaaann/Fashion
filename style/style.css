@@ -1,0 +1,546 @@
+ /* -------------------------start--------------------------- */
+ /* title "fashionette" starts */
+ .header-main{
+    align-items: center;
+ }
+ .title {
+     font-size: 26px;
+ }
+
+ .span1 {
+     color: orangered;
+ }
+
+ .span2 {
+     margin-left: -4px;
+ }
+
+ .span3 {
+     margin-left: -7px;
+     color: orangered;
+ }
+
+ .span4 {
+     margin-left: -7px;
+ }
+
+ .span5 {
+     margin-left: -7px;
+     color: orangered;
+     font-size: 34px;
+ }
+
+ /* title "fashionette" end's */
+ /* first navigation ".navi-main" bar starts */
+ .navi-main {
+     position: absolute;
+     right: 40%;
+     top: 20px;
+ }
+
+ .navi {
+     text-decoration: none;
+     padding: 10px;
+     color: black;
+     font-size: 20px;
+ }
+
+ .navi:hover {
+     text-decoration: underline;
+ }
+
+ /* first navigation ".navi-main" bar ends */
+ /* signup btn ".sign-btn" starts */
+ .sign-btn {
+     margin-left: 90%;
+     margin-top: -2%;
+     
+ }
+
+ .signup-btn {
+     background-color: rgb(255, 111, 0);
+     border-color: rgb(255, 111, 0);
+     padding: 5px 27px 5px 27px;
+     border-radius: 3px;
+     color: white;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 20px;
+ }
+
+ .signup-btn:hover {
+     background-color: orangered;
+     border-color: orangered;
+ }
+ .mode{
+margin-bottom: 100%;
+ }
+.dark{
+    width: 20%;
+    cursor: pointer;
+
+}   
+.light{
+    width: 20%;
+    cursor: pointer;
+}
+ /* signup btn ".sign-btn" ends */
+ /* background img ".bg-img" starts */
+ .bg-img {
+     width: 99.9%;
+     height: 100%;
+     position: absolute;
+     top: 59px;
+     left: 1px;
+     z-index: -1;
+ }
+
+ /* background img ".bg-img" ends */
+ /* png img ".png-img" starts */
+ .png-img {
+     width: 28%;
+     position: absolute;
+     left: 63%;
+     bottom: 4%;
+     filter: drop-shadow(0 0 20px black);
+ }
+
+ /* png img ".png-img" ends */
+ /* heading "Get Your Favourite Fashion Products" starts */
+ .title1 {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 50px;
+ }
+
+ .div1 {
+     position: absolute;
+     bottom: 30%;
+     margin-left: 10%;
+     margin-bottom: -60px;
+
+ }
+
+ .span6 {
+     color: orangered;
+ }
+
+ .para1 {
+     font-size: 17px;
+     justify-content: center;
+     text-align: center;
+     padding: 2px;
+     padding-top: 17px;
+     padding-bottom: 17px;
+ }
+
+ /* heading "Get Your Favourite Fashion Products" ends*/
+ /* registration btn & video btn & video icon ".regi-btn" starts */
+ .regi-btn {
+     background-color: rgb(255, 111, 0);
+     border-color: rgb(255, 111, 0);
+     color: white;
+     padding: 7px 20px 7px 20px;
+     border-radius: 6px;
+     cursor: pointer;
+     font-size: 19px;
+ }
+
+ .regi-btn:hover {
+     background-color: orangered;
+     border-color: orangered;
+ }
+
+ .watchvideo-a {
+     text-decoration: none;
+     color: rgb(255, 111, 0);
+     padding-left: 11px;
+     padding-top: 20px;
+     font-size: 25px;
+ }
+
+ .watchvideo-a:hover {
+     color: orangered;
+ }
+
+ .video-icon {
+     width: 45px;
+     position: relative;
+     top: 16px;
+     left: 10px;
+     cursor: pointer;
+ }
+
+ /* registration btn & video btn & video icon ".regi-btn" ends */
+ /*free shipping etc etc ".sec-main" starts */
+ .sec-main {
+     position: absolute;
+     top: 115%;
+     display: flex;
+     flex-direction: row;
+
+     
+     background-color: rgb(254, 237, 237);
+     padding: 20px;
+     margin-left: 2%;
+     margin-right: 2%;
+     padding-top: 45px;
+
+ }
+
+ .flex-main {
+     box-shadow: 0 0 7px black
+ }
+
+ #flex-main1 {
+    background-color: white;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+ .icon {
+     font-size: 36px;
+     color: rgb(247, 98, 44);
+ }
+
+ #flex-main2 {
+     background-color: white;
+     text-align: center;
+     padding-top: 10%;
+     padding-bottom: 10%;
+     margin-left: 1%;
+     margin-right: 1%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+ }
+
+ #flex-main3 {
+     background-color: white;
+     text-align: center;
+     padding-top: 10%;
+     padding-bottom: 10%;
+     margin-left: 1%;
+     margin-right: 1%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+ }
+
+ #flex-main4 {
+     background-color: white;
+     text-align: center;
+     padding-top: 10%;
+     padding-bottom: 10%;
+     margin-left: 1%;
+     margin-right: 1%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+ }
+
+ /*free shipping etc etc ".sec-main" ends */
+ /* images ".grid-main1" starts. i didn't used grid, i just give the name to the classes */
+ #grid-main1 {
+
+     position: absolute;
+     top: 196%;
+     left: 3%;
+     transition: all 200ms linear;
+ }
+
+ #grid-main1:hover {
+     transition: all 100ms linear;
+ }
+
+ /* .trans{
+    position:absolute;
+    bottom:0%;
+    text-align: center;
+    padding: 2px 2px 6px;
+    background-color: rgba(20, 19, 19, 0.2);
+    transform:scaleY(360deg);
+    transition: all;
+    transition-duration: 1s;
+}
+.trans:hover{
+    transform: scaleY(180deg);
+ 
+} */
+ #grid-main2 {
+     position: absolute;
+     top: 196%;
+     left: 36%;
+ }
+
+ #grid-main3 {
+
+     position: absolute;
+     top: 245%;
+     left: 36%;
+ }
+
+ #grid-main4 {
+     position: absolute;
+     top: 196%;
+     left: 60%;
+ }
+
+ #grid-main5 {
+     position: absolute;
+     top: 245%;
+     left: 60%;
+ }
+
+ /* images ".grid-main1" ends.*/
+ /* new arrivel starts */
+ .heading1 {
+     position: absolute;
+     top: 300%;
+     left: 45%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 22px  ;
+ }
+
+ .navi-main2 {
+     position: absolute;
+     top: 309%;
+     left: 8%;
+     padding: 10px;
+     font-size: 20px;
+ }
+
+ /*i took the hover and active together so its not an error */
+ .navi-main2 a:hover,
+ .navi-main2 a.active {
+     color: blue;
+     text-decoration: underline;
+ }
+
+ .navi1 {
+     text-decoration: none;
+     padding: 26px;
+     color: black;
+ }
+
+ .dot-png {
+     position: absolute;
+     top: 3px;
+     cursor: pointer;
+ }
+
+ .new-main2 {
+     position: absolute;
+     top: 320%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     background-color: ghostwhite;
+     padding-top: 20px;
+     margin-left:10px ;
+ }
+
+ .new-arrivel {
+     padding: 20px;
+     background-color: rgb(254, 237, 237);
+     margin: 26px;
+     font-size: 20px;
+ }
+
+ .span7 {
+     margin-left: 9%;
+     color: orangered;
+ }
+
+ .h3-style {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .shop-btn {
+     background-color: rgb(255, 111, 0);
+     border-color: rgb(255, 111, 0);
+     color: white;
+     padding: 6px 13px 6px 13px;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+
+ .shop-btn:hover {
+     background-color: orangered;
+     border-color: orangered;
+     font-size: 14px;
+ }
+
+ /*first new arrivel ends */
+ /* why choose us starts */
+ .whyus-h3 {
+     position: absolute;
+     top: 397%;
+     left: 43%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 22px;
+ }
+
+ .whyus-main {
+     background-color: white;
+ }
+
+ .why-us-main {
+     position: absolute;
+     top: 410%;
+     display: flex;
+     flex-direction: row;
+
+     background-color: rgb(254, 237, 237);
+     padding: 20px;
+     margin-left: 2%;
+     margin-right: 2%;
+     padding-top: 45px;
+ }
+
+ .why-us {
+     background-color: white;
+     text-align: center;
+     padding-top: 10%;
+     padding-bottom: 10%;
+     margin-left: 1%;
+     margin-right: 1%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+     box-shadow: 0 0 7px black;
+ }
+
+ /* why choose us ends */
+ /* second new .new-arrivel start */
+ .heading2 {
+
+     position: absolute;
+     top: 485%;
+     left: 45%;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .new-main4 {
+
+     position: absolute;
+     top: 500%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     background-color: ghostwhite;
+     padding-top: 20px;
+     padding-left: 10px;
+ }
+
+ .new-arrivel2 {
+
+     padding: 20px;
+     background-color: rgb(254, 237, 237);
+     margin: 26px;
+     font-size: 20px;
+ }
+
+ .new-main5 {
+
+     position: absolute;
+     top: 580%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     background-color: ghostwhite;
+     padding-top: 20px;
+ }
+
+ .new-arrivel3 {
+
+     padding: 20px;
+     background-color: rgb(254, 237, 237);
+     margin: 26.3px;
+     font-size: 20PX;
+ }
+
+ /* second new .new-arrivel ends */
+ /* footer start */
+ .footer {
+     position: absolute;
+     top: 670%;
+     background-color: rgb(80, 78, 78);
+     padding: 20px;
+     padding-top: 69px;
+     padding-bottom: 10%;
+     padding-right: 40.2%;
+     padding-left: 2%;
+     margin-left: -1%;
+     z-index: -1;
+
+ }
+
+ .title3 {
+     font-size: 29px;
+     ;
+ }
+
+ .span8 {
+     color: orangered;
+ }
+
+ .span9 {
+     margin-left: -4px;
+     color: white;
+ }
+
+ .span10 {
+     margin-left: -7px;
+     color: orangered;
+ }
+
+ .span11 {
+     margin-left: -7px;
+     color: white;
+ }
+
+ .span12 {
+     margin-left: -7px;
+     color: orangered;
+     font-size: 34px;
+ }
+
+ .para2 {
+     font-size: 18px;
+     color: white;
+ }
+
+ .footer-main {
+     color: white;
+     display: flex;
+     flex-direction: row;
+     
+     position: relative;
+     left: 65%;
+ }
+
+ .footer-content {
+     margin: 60px;
+     margin-top: -24%;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 16px;
+ }
+
+ .title4 {
+
+     position: absolute;
+     top: 707%;
+     left: 38%;
+     color: white;
+     font-size: 18px;
+ }
+
+ .span13 {
+     color: orangered;
+     font-size: 22px;
+     text-decoration: underline;
+ }
+
+ /* footer start */
+ /* -------------------------end--------------------------- */
